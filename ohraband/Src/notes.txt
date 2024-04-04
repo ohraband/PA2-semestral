@@ -1,4 +1,0 @@
-This is a very brief attempt at sketching out the way the classes should look like.
-I tried my best to make them at least look right, but even that proved to be quite complicated.
-Namely displaying and saving are very likely to expand and change as I have not yet decided on
-a specific way of implementing them. Includes are also likely to be missing somewhere.
