@@ -1,3 +1,13 @@
+# Running the game --------------------------------------------------------------------------------------
+1. Go into the project directory.
+2. Run "make all"
+3. Run "make run"
+4. Follow the instructions on screen to select your map.
+5. Play
+
+!! Warning the game may not start if launched from a code editor. Using a basic terminal window is reccomended. 
+The game needs a few rows of the command line window to display the game map and some editors (like CLion) always return the available row amount as 1. 
+
 # Oficiální zadání --------------------------------------------------------------------------------------
 
 Ant wars
