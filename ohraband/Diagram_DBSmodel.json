@@ -1,0 +1,939 @@
+{
+  "entities": [
+    {
+      "name": "Caction",
+      "parent": null,
+      "attr": [
+        {
+          "name": "generatepath",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "doaction",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        }
+      ],
+      "transform": {
+        "x": 314.44444444444446,
+        "y": 465.8958333333333,
+        "width": 134,
+        "height": 95.00000000000006
+      }
+    },
+    {
+      "name": "Cblock",
+      "parent": null,
+      "attr": [
+        {
+          "name": "show",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "walkable",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "walkable",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        }
+      ],
+      "transform": {
+        "x": 994.5555555555554,
+        "y": 460.73090277777777,
+        "width": 102.22222222222217,
+        "height": 115.55555555555554
+      }
+    },
+    {
+      "name": "Ccomputer",
+      "parent": null,
+      "attr": [
+        {
+          "name": "makemove",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "easydifficulty",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "mediumdifficulty",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "harddifficulty",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        }
+      ],
+      "transform": {
+        "x": 272.0000000000001,
+        "y": 181.65277777777777,
+        "width": 127.44444444444434,
+        "height": 99.24305555555554
+      }
+    },
+    {
+      "name": "Cgame",
+      "parent": null,
+      "attr": [
+        {
+          "name": "processturn",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "showhelp",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "savegame",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        }
+      ],
+      "transform": {
+        "x": 380.44444444444446,
+        "y": 41.16493055555554,
+        "width": 167,
+        "height": 132
+      }
+    },
+    {
+      "name": "Cmainmenu",
+      "parent": null,
+      "attr": [
+        {
+          "name": "start",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "wait",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "load",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "save",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "quit",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        }
+      ],
+      "transform": {
+        "x": 586.7777777777777,
+        "y": -53.713541666666664,
+        "width": 195.5555555555556,
+        "height": 103.33333333333333
+      }
+    },
+    {
+      "name": "Cmap",
+      "parent": null,
+      "attr": [
+        {
+          "name": "create",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "displaysymbol",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "getheight",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "getwidth",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "clearmap",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        }
+      ],
+      "transform": {
+        "x": 761.4444444444442,
+        "y": 57.60937499999997,
+        "width": 137,
+        "height": 135
+      }
+    },
+    {
+      "name": "Coutpost",
+      "parent": null,
+      "attr": [
+        {
+          "name": "createrepresentative",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "getplayer",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "show",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "walkable",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        }
+      ],
+      "transform": {
+        "x": 518.6984126984128,
+        "y": 435.4188988095239,
+        "width": 150,
+        "height": 139
+      }
+    },
+    {
+      "name": "Cplayer",
+      "parent": null,
+      "attr": [
+        {
+          "name": "create",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "makemove",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        }
+      ],
+      "transform": {
+        "x": 491.888888888889,
+        "y": 236.83159722222226,
+        "width": 170,
+        "height": 139
+      }
+    },
+    {
+      "name": "Crepresentative",
+      "parent": null,
+      "attr": [
+        {
+          "name": "combat",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "die",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "move",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "show",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "walkable",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        }
+      ],
+      "transform": {
+        "x": 773.1428571428573,
+        "y": 486.60937500000006,
+        "width": 174,
+        "height": 136
+      }
+    },
+    {
+      "name": "Csymbol",
+      "parent": null,
+      "attr": [
+        {
+          "name": "show",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "walkable",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "attribute",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        }
+      ],
+      "transform": {
+        "x": 906.3333333333333,
+        "y": 254.89583333333331,
+        "width": 173.1111111111111,
+        "height": 107.390625
+      }
+    },
+    {
+      "name": "Chuman",
+      "parent": null,
+      "attr": [
+        {
+          "name": "makemove",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        }
+      ],
+      "transform": {
+        "x": 274.44444444444446,
+        "y": 289.98611111111103,
+        "width": 88,
+        "height": 87
+      }
+    }
+  ],
+  "relations": [
+    [
+      {
+        "entity": "Cmainmenu",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 586.7777777777777,
+            "y": -2.046875,
+            "edge": 3
+          },
+          "points": [
+            {
+              "x": 525.7222222222222,
+              "y": 14.059027777777771
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Cgame",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 475.66666666666663,
+            "y": 41.16493055555554,
+            "edge": 0
+          },
+          "points": [
+            {
+              "x": 525.7222222222222,
+              "y": 14.059027777777771
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Cmap",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 761.4444444444442,
+            "y": 125.10937499999997,
+            "edge": 3
+          },
+          "points": [
+            {
+              "x": 654.4444444444443,
+              "y": 116.13715277777776
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Cgame",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 547.4444444444445,
+            "y": 107.16493055555554,
+            "edge": 1
+          },
+          "points": [
+            {
+              "x": 654.4444444444443,
+              "y": 116.13715277777776
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Cplayer",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 576.888888888889,
+            "y": 375.8315972222223,
+            "edge": 2
+          },
+          "points": [
+            {
+              "x": 585.2936507936508,
+              "y": 405.6252480158731
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Coutpost",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 0,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 593.6984126984128,
+            "y": 435.4188988095239,
+            "edge": 0
+          },
+          "points": [
+            {
+              "x": 585.2936507936508,
+              "y": 405.6252480158731
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Cplayer",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": "29f4a0f85840861a5840861a93e0cfd2",
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 491.888888888889,
+            "y": 276.5815972222223,
+            "edge": 3
+          },
+          "points": [
+            {
+              "x": 442.66666666666674,
+              "y": 258.11718750000006
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Ccomputer",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 399.44444444444446,
+            "y": 239.65277777777783,
+            "edge": 1
+          },
+          "points": [
+            {
+              "x": 442.66666666666674,
+              "y": 258.11718750000006
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Cplayer",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 0,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 576.888888888889,
+            "y": 236.83159722222226,
+            "edge": 0
+          },
+          "points": [
+            {
+              "x": 520.4166666666667,
+              "y": 204.9982638888889
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Cgame",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 463.94444444444446,
+            "y": 173.16493055555554,
+            "edge": 2
+          },
+          "points": [
+            {
+              "x": 478.44444444444446,
+              "y": 190.89583333333334
+            },
+            {
+              "x": 520.4166666666667,
+              "y": 204.9982638888889
+            }
+          ],
+          "manual": true
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Cplayer",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 491.888888888889,
+            "y": 362.8958333333333,
+            "edge": 3
+          },
+          "points": [
+            {
+              "x": 470.16666666666674,
+              "y": 438.14583333333337
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Caction",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 448.44444444444446,
+            "y": 513.3958333333334,
+            "edge": 1
+          },
+          "points": [
+            {
+              "x": 470.16666666666674,
+              "y": 438.14583333333337
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Crepresentative",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 0,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 773.1428571428573,
+            "y": 554.609375,
+            "edge": 3
+          },
+          "points": [
+            {
+              "x": 720.920634920635,
+              "y": 544.6391369047619
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Coutpost",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 668.6984126984128,
+            "y": 534.6688988095239,
+            "edge": 1
+          },
+          "points": [
+            {
+              "x": 720.920634920635,
+              "y": 544.6391369047619
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Csymbol",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 1,
+        "xor": "6ee1198d20de33cd20de33cea9c6e10d20de33cec8a6817",
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 1031.1666666666665,
+            "y": 362.28645833333337,
+            "edge": 2
+          },
+          "points": [
+            {
+              "x": 1038.4166666666665,
+              "y": 414.50868055555554
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Cblock",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 1045.6666666666665,
+            "y": 460.73090277777777,
+            "edge": 0
+          },
+          "points": [
+            {
+              "x": 1038.4166666666665,
+              "y": 414.50868055555554
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Csymbol",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 1,
+        "xor": "6ee1198d20de33cd20de33cea9c6e10d20de33cec8a6817",
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 921.4444444444443,
+            "y": 362.28645833333337,
+            "edge": 2
+          },
+          "points": [
+            {
+              "x": 800.5714285714286,
+              "y": 434.6651785714286
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Coutpost",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 668.6984126984128,
+            "y": 490.04389880952385,
+            "edge": 1
+          },
+          "points": [
+            {
+              "x": 800.5714285714286,
+              "y": 434.6651785714286
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Csymbol",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 1,
+        "xor": "6ee1198d20de33cd20de33cea9c6e10d20de33cec8a6817",
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 976.3055555555554,
+            "y": 362.2864583333333,
+            "edge": 2
+          },
+          "points": [
+            {
+              "x": 937.4742063492065,
+              "y": 427.4479166666667
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Crepresentative",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 898.6428571428575,
+            "y": 486.60937500000006,
+            "edge": 0
+          },
+          "points": [
+            {
+              "x": 937.4742063492065,
+              "y": 427.4479166666667
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Csymbol",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 0,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 986.4444444444443,
+            "y": 254.89583333333331,
+            "edge": 0
+          },
+          "points": [
+            {
+              "x": 952.9444444444443,
+              "y": 177.39583333333331
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Cmap",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 898.4444444444442,
+            "y": 92.89583333333334,
+            "edge": 1
+          },
+          "points": [
+            {
+              "x": 919.4444444444445,
+              "y": 110.89583333333334
+            },
+            {
+              "x": 952.9444444444443,
+              "y": 177.39583333333331
+            }
+          ],
+          "manual": true
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Chuman",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 362.44444444444446,
+            "y": 333.4861111111111,
+            "edge": 1
+          },
+          "points": [
+            {
+              "x": 424.16666666666674,
+              "y": 319.9088541666667
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Cplayer",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": "29f4a0f85840861a5840861a93e0cfd2",
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 491.888888888889,
+            "y": 306.3315972222223,
+            "edge": 3
+          },
+          "points": [
+            {
+              "x": 424.16666666666674,
+              "y": 319.9088541666667
+            }
+          ],
+          "manual": false
+        }
+      }
+    ]
+  ],
+  "notes": []
+}
