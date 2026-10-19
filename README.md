@@ -8,6 +8,14 @@
 !! Warning the game may not start if launched from a code editor. Using a basic terminal window is recommended.
 The game needs a few rows of the command line window to display the game map and some editors (like CLion) always return the available row amount as 1. 
 
+
+![round_end.jpg](round_end.jpg)
+![during_round.jpg](during_round.jpg)
+![endscreen.jpg](endscreen.jpg)
+
+
+
+```txt
 # Oficiální zadání --------------------------------------------------------------------------------------
 
 Ant wars
@@ -117,3 +125,4 @@ avšak kedže bude slúžiť najmä pre porovnanie vlastností a typov príde mi
 Polymorfizmus v abstraktnej triede `CPlayer` má metódu `MakeAction`, ktorá v `CHuman` bude čakať na input od hráča,
 podľa čoho následne vyberie začiatočnú a koncovú základňu, u `CComputer` metóda `MakeAction` vygeneruje pohyb cez jedno z implementovaných AI
 podľa zvolenej obtiažnosti.
+```
